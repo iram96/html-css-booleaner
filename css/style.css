@@ -58,3 +58,29 @@ th{
 .rigablu{
     background-color: aquamarine;
 }
+
+.imgfinal{
+    width: 200px;
+    height: 200px;
+}
+
+#primolink{
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+#secondolink{
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 25%;
+}
