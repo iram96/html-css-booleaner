@@ -1,0 +1,35 @@
+header{
+    background-color: cornflowerblue;
+    background-image: url("../img/pattern.png");
+    height: 180px;
+    width: auto;
+}
+
+#icon{
+    height: 120px;
+    width: 160px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 5px; 
+    margin-bottom: 0;  
+}
+
+#booleaner{
+    color: blue;
+}
+
+address{
+    font-style: normal;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.desimg{
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+}
