@@ -1,4 +1,6 @@
- body{
+/* Generics */
+
+body{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +10,9 @@ main{
     margin: 0 auto;
     width: 70%;
 }
+
+
+/* Publisher Banner */
 
 header{
     background-color: cornflowerblue;
@@ -22,6 +27,9 @@ header{
     margin-top: 90px;
     margin-left: 10px;
 }
+
+
+/* Title + info */
 
 h1{
     font-size: 70px;
@@ -39,10 +47,8 @@ address{
     margin-bottom: 20px;
 }
 
-.desimg{
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
+/* Text */
+
 
 .underline{
     background-color: gold;
@@ -52,7 +58,7 @@ ul{
     padding-left: 15px;
 }
 /* padding-inline-start: 0;
-   list-style-position: inside; */
+list-style-position: inside; */
 
 /* th{
     width: 100%;
@@ -60,14 +66,34 @@ ul{
 } */
 
 
+/* Table Box */
 
-.rigablu{
+#w-50{
+    width: 50%;
+}
+th{
+    text-align: justify;
+}
+table{
+    border-collapse: collapse;
+}
+
+table tr:first-child{
+    color: white;
+    background-color:dodgerblue;
+}
+
+table tr:nth-of-type(even){
     background-color: aquamarine;
 }
+
+
+/* Final imgs */
 
 .imgfinal{
     width: 200px;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 #primolink{
@@ -90,22 +116,6 @@ a{
     text-decoration: none;
     color: white;
     font-size: 16px;
-    margin-left: 25%;
+    margin-left: 33%;
 }
 
-#w-50{
-    width: 50%;
-}
-
- th{
-     text-align: justify;
- }
-
- table tr:first-child{
-     color: white;
-     background-color:dodgerblue;
- }
-
- table{
-     border-collapse: collapse;
- }
